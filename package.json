@@ -1,0 +1,20 @@
+{
+  "name": "ts-design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "observer": "tsc src/Observer.ts --outDir dist && node dist/Observer.js",
+    "singleton": "tsc src/Singleton.ts --outDir dist && node dist/Singleton.js",
+    "strategy": "tsc src/Strategy.ts --outDir dist && node dist/Strategy.js",
+    "decorator": "tsc src/Decorator.ts --outDir dist && node dist/Decorator.js",
+    "factory": "tsc src/Factory.ts --outDir dist && node dist/Factory.js",
+    "abstract": "tsc src/AbstractFactory.ts --outDir dist && node dist/AbstractFactory.js"
+  },
+  "keywords": [],
+  "author": "peterdotw",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
